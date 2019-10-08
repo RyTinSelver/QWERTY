@@ -1,0 +1,92 @@
+[09Oct2019 01:32:53.778] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.39, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge]
+[09Oct2019 01:32:53.790] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_222 by Oracle Corporation
+[09Oct2019 01:32:54.168] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[09Oct2019 01:32:56.118] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[09Oct2019 01:33:16.289] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Oct2019 01:33:16.294] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Oct2019 01:33:16.311] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Oct2019 01:33:16.312] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Oct2019 01:33:16.314] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Oct2019 01:33:16.494] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.14.4
+[09Oct2019 01:33:19.805] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.39, for MC 1.14.4 with MCP 20190829.143755
+[09Oct2019 01:33:19.807] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.39 Initialized
+[09Oct2019 01:33:25.153] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cfm:seat
+[09Oct2019 01:33:25.330] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after CONSTRUCT: 1 jobs
+[09Oct2019 01:33:25.342] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.007
+[09Oct2019 01:33:25.551] [Server thread/INFO] [com.polyvalord.extlights.Extlights/]: HELLO from Register Block
+[09Oct2019 01:33:27.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /etc/minecraft/qwerty/config/kleeslabs-common.toml is not correct. Correcting
+[09Oct2019 01:33:27.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.disabledCompat was corrected from [] to []
+[09Oct2019 01:33:28.225] [modloading-worker-0/INFO] [com.shadowcs.linkeddestruction.LinkedDestruction/]: Setup method firing
+[09Oct2019 01:33:28.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: Global Forge version check system disabled, no further processing.
+[09Oct2019 01:33:28.726] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file config/appleskin.toml is not correct. Correcting
+[09Oct2019 01:33:28.729] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
+[09Oct2019 01:33:28.731] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltip was corrected from null to true
+[09Oct2019 01:33:28.736] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to true
+[09Oct2019 01:33:28.738] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showSaturationHudOverlay was corrected from null to true
+[09Oct2019 01:33:28.740] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to true
+[09Oct2019 01:33:28.742] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to true
+[09Oct2019 01:33:28.744] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to true
+[09Oct2019 01:33:28.784] [modloading-worker-0/INFO] [com.polyvalord.extlights.Extlights/]: HELLO FROM PREINIT
+[09Oct2019 01:33:28.786] [modloading-worker-0/INFO] [com.polyvalord.extlights.Extlights/]: DIRT BLOCK >> minecraft:dirt
+[09Oct2019 01:33:28.807] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 2 jobs
+[09Oct2019 01:33:28.819] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.009
+[09Oct2019 01:33:28.835] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09Oct2019 01:33:28.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[09Oct2019 01:33:28.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[09Oct2019 01:33:29.142] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[09Oct2019 01:33:29.207] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[09Oct2019 01:33:29.633] [modloading-worker-0/INFO] [com.polyvalord.extlights.Extlights/]: Got IMC []
+[09Oct2019 01:33:41.332] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[09Oct2019 01:33:41.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09Oct2019 01:33:45.422] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: LinkedDestruction-1.14.4-0.7.2.9999.jar, inventorysorter-1.14.4-16.1.0.jar, TrashSlot_1.14.4-10.4.7.jar, KleeSlabs_1.14.4-7.4.7.jar, Harvest-forge-1.14.4-1.2.10-23.jar, fishtraps-0.0.4.jar, AppleSkin-mc1.14.4-forge-1.0.12.jar, lumberjack-2.0.0.jar, Default, travel_bag-1.0.6-1.14.4.jar, QuickLeafDecay-MC1.14.4-1.2.5.jar, ProgressiveBosses-2.1.2.jar, forge-1.14.4-28.1.39-universal.jar, LargeFluidTank-14.8.2.jar, extlights-1.6.jar, CraftingCraft_1.14.4-7.1.5.jar, CoffeeSpawner-1.14.4-5.0.0.jar, furniture-7.0.0-pre10-1.14.4.jar
+[09Oct2019 01:33:47.841] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe fluidtank:tank_wood_easy as it's conditions were not met
+[09Oct2019 01:33:47.900] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[09Oct2019 01:33:49.397] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement fluidtank:recipes/tank/tank_silver as it's conditions were not met
+[09Oct2019 01:33:49.431] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement fluidtank:recipes/tank/tank_copper as it's conditions were not met
+[09Oct2019 01:33:49.485] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement fluidtank:recipes/tank/tank_bronze as it's conditions were not met
+[09Oct2019 01:33:49.504] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement fluidtank:recipes/tank/tank_tin as it's conditions were not met
+[09Oct2019 01:33:49.544] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement fluidtank:recipes/tank/tank_lead as it's conditions were not met
+[09Oct2019 01:33:49.648] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 871 advancements
+[09Oct2019 01:33:52.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Oct2019 01:33:54.510] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:33:54.513] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:33:54.514] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:33:54.515] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:33:54.516] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:33:54.542] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:05.969] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:05.996] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.002] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.003] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.004] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.005] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.007] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.008] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.009] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.010] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.011] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.012] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.013] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.014] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.014] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.015] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.055] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.057] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.058] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.059] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.060] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.064] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.065] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Oct2019 01:34:06.695] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 37%
+[09Oct2019 01:34:07.285] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 15244 ms
+[09Oct2019 01:34:07.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (26.110s)! For help, type "help"
+[09Oct2019 01:34:07.446] [Server thread/INFO] [com.polyvalord.extlights.Extlights/]: HELLO from server starting
+[09Oct2019 01:34:07.795] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Oct2019 01:34:07.835] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Oct2019 01:34:46.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[09Oct2019 01:34:46.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Oct2019 01:34:46.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Oct2019 01:34:46.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Oct2019 01:34:46.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
+[09Oct2019 01:34:48.594] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Oct2019 01:34:48.648] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
