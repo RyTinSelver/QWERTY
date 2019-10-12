@@ -4,7 +4,7 @@
 
 * **Forge Updated: 28.1.37 --> 28.1.39**
 
-* **Mod Deleted: MineMenu *(Client Side)* **
+* **Mod Deleted: MineMenu** *(Client Side)*
 
 * **Mod Updated: Linked Destruction 0.6.0 --> 0.7.2.9999 | extlight 1.5 --> 1.6**
 
