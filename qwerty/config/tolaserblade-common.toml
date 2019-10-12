@@ -1,0 +1,9 @@
+
+#ToLaserBlade's common settings.
+[common]
+	#Enable blocking with Laser Blade.
+	enableBlockingWithLaserBlade = false
+	#An integer value (0-128) that is a factor of mining speed of Laser Blade.
+	#Range: 0 ~ 128
+	laserBladeEfficiencyInServer = 12
+

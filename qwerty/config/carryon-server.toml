@@ -1,0 +1,5 @@
+settings = {}
+blacklist = {}
+whitelist = {}
+custom_pickup_conditions = {}
+

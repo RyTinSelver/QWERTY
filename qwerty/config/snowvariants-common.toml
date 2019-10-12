@@ -1,0 +1,20 @@
+
+#General Settings
+[general]
+	#Register Snow Stair Variants. False Overrides Mod Specific Values
+	registerStairs = true
+	#Register ItemBlocks Of Snow Variants. False Overrides Mod Specific Values
+	registerItems = true
+	#Register Snow Slab Variants. False Overrides Mod Specific Values
+	registerSlabs = true
+
+#Mod Specific Settings. False Overrides General Values
+[mod]
+
+	#Minecraft Settings
+	[mod.minecraft]
+		#Register All Snow Minecraft Slab Variants
+		registerMinecraftSlabs = true
+		#Register All Snow Minecraft Stair Variants
+		registerMinecraftStairs = true
+
