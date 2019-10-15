@@ -8,6 +8,8 @@
 
 * **Mod Updated Server: findme 1.1.0.13**
 
+* **Bug Fixed: Linked Destruction failed when mining quartz ore**
+
 **19-12-10(Vital Update)**
 
 * Forge Updated: 28.1.39 --> 28.1.44
