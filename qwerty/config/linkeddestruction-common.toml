@@ -53,7 +53,7 @@
 	#List Enabled [default:false]
 	Enable = true
 	#List of blocks [default:[]]
-	List = ["minecraft:coal_ore", "minecraft:iron_ore", "minecraft:gold_ore", "minecraft:lapis_ore", "minecraft:diamond_ore", "minecraft:redstone_ore", "minecraft:lit_redstone_ore", "minecraft:emerald_ore", "minecraft:quartz_ore"]
+	List = ["minecraft:coal_ore", "minecraft:iron_ore", "minecraft:gold_ore", "minecraft:lapis_ore", "minecraft:diamond_ore", "minecraft:redstone_ore", "minecraft:lit_redstone_ore", "minecraft:emerald_ore", "minecraft:nether_quartz_ore"]
 
 [ToolList]
 	#If the list is a white or blacklsit [WHITELIST,BLACKLISTdefault:BLACKLIST]
@@ -66,7 +66,7 @@
 
 [LinkList]
 	#List Enabled [default:true]
-	Enable = true
+	Enable = false
 	#List of blocks [default:[]]
 	List = [["minecraft:dirt", "minecraft:grass_block"], ["minecraft:stone", "minecraft:granite", "minecraft:diorite", "minecraft:andesite"]]
 
