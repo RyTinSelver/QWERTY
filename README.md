@@ -1,12 +1,18 @@
 ## Information Board
 
-**19-16-10**
+**19-20-10**
 
-* **Forge Updated: 28.1.47 --> 28.1.56**
+* **Forge Updated: 28.1.56 --> 28.1.61**
 
-* **Mod Updated Client: overloadedarmorbar 3.0.0**
+* **Bug Fixed: Fixed Player HP UI (copy /config/levelhearts.toml to client)**
 
-* **Bug Fixed: Fixed Player Maximum Health to 100**
+19-16-10
+
+* Forge Updated: 28.1.47 --> 28.1.56
+
+* Mod Updated Client: overloadedarmorbar 3.0.0
+
+* Bug Fixed: Fixed Player Maximum Health to 100
 
 19-15-10
 

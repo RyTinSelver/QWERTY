@@ -326,21 +326,9 @@
     },
     "done": true
   },
-  "fluidtank:recipes/tank/tank_diamond": {
-    "criteria": {
-      "has_gems/diamond": "2019-10-07 22:21:40 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2019-09-30 15:53:17 +0800"
-    },
-    "done": true
-  },
-  "fluidtank:recipes/tank/pipe": {
-    "criteria": {
-      "has_ender_pearls": "2019-10-11 10:16:48 +0800"
     },
     "done": true
   },
@@ -816,12 +804,6 @@
     },
     "done": true
   },
-  "fluidtank:recipes/tank/tank_iron": {
-    "criteria": {
-      "has_ingots/iron": "2019-09-30 15:53:17 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2019-10-10 23:16:04 +0800"
@@ -1110,12 +1092,6 @@
     },
     "done": true
   },
-  "fluidtank:recipes/tank/tank_wood_easy": {
-    "criteria": {
-      "has_glass": "2019-09-30 15:53:17 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-09-30 16:27:51 +0800"
@@ -1220,12 +1196,6 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-10-10 22:25:19 +0800"
-    },
-    "done": true
-  },
-  "fluidtank:recipes/tank/tank_gold": {
-    "criteria": {
-      "has_ingots/gold": "2019-09-30 15:51:53 +0800"
     },
     "done": true
   },
@@ -1743,12 +1713,6 @@
     },
     "done": true
   },
-  "fluidtank:recipes/tank/tank_stone": {
-    "criteria": {
-      "has_stone": "2019-09-30 16:19:41 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-10-10 22:25:19 +0800"
@@ -2032,12 +1996,6 @@
     },
     "done": true
   },
-  "fluidtank:recipes/tank/chest_as_tank": {
-    "criteria": {
-      "has_lots_of_items": "2019-10-10 23:10:17 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2019-09-30 15:51:53 +0800"
@@ -2311,12 +2269,6 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2019-10-07 22:21:40 +0800"
-    },
-    "done": true
-  },
-  "fluidtank:recipes/tank/tank_emerald": {
-    "criteria": {
-      "has_gems/emerald": "2019-10-14 21:12:59 +0800"
     },
     "done": true
   },
@@ -2786,12 +2738,6 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-09-30 15:53:17 +0800"
-    },
-    "done": true
-  },
-  "fluidtank:recipes/tank/tank_wood": {
-    "criteria": {
-      "has_glass": "2019-09-30 15:53:17 +0800"
     },
     "done": true
   },
