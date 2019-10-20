@@ -7,10 +7,10 @@
 
 [Health]
 	# The maximum amount of half-hearts a user can have.
-	#Range: -1 ~ 100
+	#Range: -1 ~ 32767
 	"Maximum Health" = -1
 	# The amount of half-hearts a user will have in a new game and after death.
-	#Range: 1 ~ 100
+	#Range: 1 ~ 127
 	"Default Health" = 20
 	# The levels at which the user will gain a heart.
 	"Level Ramp" = [1, 5, 10, 15, 20, 25, 30, 34, 38, 42, 46, 50, 53, 56, 59, 62, 64, 66, 68, 70, 75, 80, 85, 90, 95, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]
@@ -19,7 +19,7 @@
 	# Changes the HUD to display health in one-row only.
 	"LevelHearts Minimal HUD" = true
 	# Whether or not to use the custom HUD provided by LevelHearts. Only disable if you're having mod conflicts.
-	"LevelHearts HUD" = false
+	"LevelHearts HUD" = true
 
 [Xp]
 	#How much to multiply the value of XP by.
