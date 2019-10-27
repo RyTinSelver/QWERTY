@@ -1,5 +1,8 @@
 
 [general]
+	#If AUTO, the belt slot will be disabled if Curios is present. If OFF, the belt slot will be disabled permanently.
+	#Allowed Values: OFF, AUTO, ON
+	customBeltSlotMode = "ON"
 	#If set to TRUE, the internal anvil upgrade will not work, and alternative methods for upgrades will have to be provided externally.
 	disableAnvilUpgrading = false
 	#List of items to disallow from placing in the belt. (whitelist takes precedence)

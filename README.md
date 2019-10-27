@@ -4,6 +4,10 @@
 
 * **Forge Updated: 28.1.56 --> 28.1.70**
 
+* **Mod Updated Server: CarryOn 1.12.3 --> 1.12.4 | Floocraft 1.9.7 --> 1.10.0 | JustEnoughResources 0.10.0.63 | RingOfRepair 1.0.17 --> 1.0.18 | ToolBelt 1.12.1 --> 1.12.5 | doubledoors 1.1 | furnature 7.0.0-pre10 --> 7.0.0-pre11 | inventorysorter 16.1.0 --> 16.2.0 | invtotem 1.0**
+
+* **Mod Updated Client: AmbientSounds 3.0.13 --> 3.0.14 | EnchantmentDescriptions 1.3.6 --> 1.3.8 | ingametime 2.0.0 | LightOverlay 3.6 | Optifine HD_U_F4_pre11 --> HD_U_F4 | ShoulderSurfing 1.21**
+
 * **Bug Fixed: Fixed Player HP UI (copy /config/levelhearts.toml to client)**
 
 19-16-10
