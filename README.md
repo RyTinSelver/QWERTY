@@ -1,8 +1,8 @@
 ## Information Board
 
-**19-20-10**
+**19-27-10**
 
-* **Forge Updated: 28.1.56 --> 28.1.61**
+* **Forge Updated: 28.1.56 --> 28.1.70**
 
 * **Bug Fixed: Fixed Player HP UI (copy /config/levelhearts.toml to client)**
 
