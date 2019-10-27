@@ -1,237 +1,237 @@
-[20Oct2019 15:29:43.135] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.61, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge]
-[20Oct2019 15:29:43.141] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_222 by Oracle Corporation
-[20Oct2019 15:29:43.800] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[20Oct2019 15:29:45.851] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
-[20Oct2019 15:30:09.262] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20Oct2019 15:30:09.307] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20Oct2019 15:30:09.311] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20Oct2019 15:30:09.314] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20Oct2019 15:30:09.318] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20Oct2019 15:30:09.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.14.4
-[20Oct2019 15:30:11.649] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `torchbowmod` for name `torchbow`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[20Oct2019 15:30:11.652] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `torchbowmod` for name `multitorch`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[20Oct2019 15:30:13.306] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity waddles:adelie_penguin
-[20Oct2019 15:30:13.313] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.61, for MC 1.14.4 with MCP 20190829.143755
-[20Oct2019 15:30:13.315] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.61 Initialized
-[20Oct2019 15:30:17.964] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cfm:seat
-[20Oct2019 15:30:18.305] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after CONSTRUCT: 1 jobs
-[20Oct2019 15:30:18.370] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.059
-[20Oct2019 15:30:18.689] [Server thread/INFO] [com.polyvalord.extlights.Extlights/]: HELLO from Register Block
-[20Oct2019 15:30:19.398] [Server thread/INFO] [com.tfar.extraanvils.ExtraAnvils/]: registering diamond anvil
-[20Oct2019 15:30:19.402] [Server thread/INFO] [com.tfar.extraanvils.ExtraAnvils/]: registering gold anvil
-[20Oct2019 15:30:19.404] [Server thread/INFO] [com.tfar.extraanvils.ExtraAnvils/]: registering stone anvil
-[20Oct2019 15:30:19.784] [Server thread/INFO] [ring_of_repair/]: Blocks registered
-[20Oct2019 15:30:20.338] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Registered 115 blocks.
-[20Oct2019 15:30:20.568] [Server thread/INFO] [TorchBowMod/]: HELLO from Register Item
-[20Oct2019 15:30:20.722] [Server thread/INFO] [ring_of_repair/]: Items registered.
-[20Oct2019 15:30:20.724] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Registered 116 items.
-[20Oct2019 15:30:21.120] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Registered 8 tile entities.
-[20Oct2019 15:30:21.139] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity torchbowmod:entitytorch
-[20Oct2019 15:30:21.142] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity extraanvils:falling_anvil_entity
-[20Oct2019 15:30:21.144] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity floocraftft
-[20Oct2019 15:30:21.213] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity sit:entity_sit
-[20Oct2019 15:30:21.862] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Loaded config file rsgauges-common.toml
-[20Oct2019 15:30:21.894] [Thread-1/INFO] [wile.rsgauges.ModRsGauges/]: Config file changed rsgauges-common.toml
-[20Oct2019 15:30:22.063] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /etc/minecraft/qwerty/config/kleeslabs-common.toml is not correct. Correcting
-[20Oct2019 15:30:22.066] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.disabledCompat was corrected from [] to []
-[20Oct2019 15:30:22.160] [modloading-worker-0/INFO] [com.shadowcs.linkeddestruction.LinkedDestruction/]: Setup method firing
-[20Oct2019 15:30:22.304] [modloading-worker-0/INFO] [ring_of_repair/]: Mod setup
-[20Oct2019 15:30:22.306] [modloading-worker-0/INFO] [wile.rsgauges.ModRsGauges/]: Registering recipe condition processor ...
-[20Oct2019 15:30:22.310] [modloading-worker-0/INFO] [wile.rsgauges.ModRsGauges/]: Init networking, overlay handling, content processors ...
-[20Oct2019 15:30:22.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: Global Forge version check system disabled, no further processing.
-[20Oct2019 15:30:23.382] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file config/appleskin.toml is not correct. Correcting
-[20Oct2019 15:30:23.385] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
-[20Oct2019 15:30:23.387] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltip was corrected from null to true
-[20Oct2019 15:30:23.389] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to true
-[20Oct2019 15:30:23.391] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showSaturationHudOverlay was corrected from null to true
-[20Oct2019 15:30:23.393] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to true
-[20Oct2019 15:30:23.395] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to true
-[20Oct2019 15:30:23.397] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to true
-[20Oct2019 15:30:23.553] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:lit_furnace : Unknown block type 'minecraft:lit_furnace' at position 0: <--[HERE]
-[20Oct2019 15:30:23.556] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:23.558] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:23.629] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:23.631] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:23.633] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:23.635] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:23.636] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:23.637] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:23.656] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:23.658] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.660] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.661] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:23.662] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:23.667] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:unpowered_comparator : Unknown block type 'minecraft:unpowered_comparator' at position 0: <--[HERE]
-[20Oct2019 15:30:23.740] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:23.743] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:23.745] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:23.748] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:23.750] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:23.751] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:23.752] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:23.753] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:23.754] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:23.773] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.775] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.776] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:23.777] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:23.778] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:unpowered_repeater : Unknown block type 'minecraft:unpowered_repeater' at position 0: <--[HERE]
-[20Oct2019 15:30:23.780] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:23.819] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:23.821] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:23.823] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:23.825] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:23.826] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:23.827] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:23.828] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:23.842] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:23.844] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.846] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.847] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:23.848] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:23.849] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:powered_comparator : Unknown block type 'minecraft:powered_comparator' at position 0: <--[HERE]
-[20Oct2019 15:30:23.851] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:23.853] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:23.855] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:23.889] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:23.891] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:23.893] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:23.894] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:23.895] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:23.896] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:23.897] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.898] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.899] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:23.900] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:23.934] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:powered_repeater : Unknown block type 'minecraft:powered_repeater' at position 0: <--[HERE]
-[20Oct2019 15:30:23.937] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:23.939] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:23.941] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:23.943] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:23.945] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:23.946] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:23.947] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:23.948] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:23.949] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:23.951] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.952] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:23.953] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:23.954] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:23.991] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:tallgrass;1 : Unknown block type 'minecraft:tallgrass' at position 0: <--[HERE]
-[20Oct2019 15:30:23.994] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:23.996] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:23.997] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:23.999] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:24.001] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:24.004] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:24.005] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:24.006] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:24.007] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:24.009] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.010] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.011] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:24.012] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:24.013] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:tallgrass;2 : Unknown block type 'minecraft:tallgrass' at position 0: <--[HERE]
-[20Oct2019 15:30:24.016] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:24.017] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:24.026] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:24.028] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:24.030] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:24.031] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:24.032] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:24.033] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:24.108] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:24.111] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.112] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.113] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:24.114] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:24.115] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:leaves2 : Unknown block type 'minecraft:leaves2' at position 0: <--[HERE]
-[20Oct2019 15:30:24.117] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:24.119] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:24.121] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:24.155] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:24.157] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:24.158] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:24.159] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:24.161] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:24.162] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:24.164] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.164] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.165] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:24.166] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:24.168] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:reeds : Unknown block type 'minecraft:reeds' at position 0: <--[HERE]
-[20Oct2019 15:30:24.169] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:24.191] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:24.193] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:24.195] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:24.196] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:24.197] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:24.198] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:24.199] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:24.200] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:24.202] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.203] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.204] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:24.205] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:24.207] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:daylight_detector_inverted : Unknown block type 'minecraft:daylight_detector_inverted' at position 0: <--[HERE]
-[20Oct2019 15:30:24.209] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:24.210] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:24.212] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:24.214] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:24.216] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:24.217] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:24.218] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:24.219] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:24.220] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:24.221] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.261] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.263] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:24.264] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:24.265] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:standing_sign : Unknown block type 'minecraft:standing_sign' at position 0: <--[HERE]
-[20Oct2019 15:30:24.267] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:24.269] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:24.270] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:24.276] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:24.278] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:24.279] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:24.280] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:24.281] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:24.282] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:24.283] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.284] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.285] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:24.286] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:24.288] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:wall_sign : Unknown block type 'minecraft:wall_sign' at position 0: <--[HERE]
-[20Oct2019 15:30:24.323] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
-[20Oct2019 15:30:24.326] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
-[20Oct2019 15:30:24.328] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
-[20Oct2019 15:30:24.329] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
-[20Oct2019 15:30:24.331] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
-[20Oct2019 15:30:24.332] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
-[20Oct2019 15:30:24.333] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
-[20Oct2019 15:30:24.334] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
-[20Oct2019 15:30:24.339] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
-[20Oct2019 15:30:24.341] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.342] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
-[20Oct2019 15:30:24.343] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
-[20Oct2019 15:30:24.344] [modloading-worker-0/INFO] [CarryOn/]: 
-[20Oct2019 15:30:24.424] [modloading-worker-0/INFO] [com.polyvalord.extlights.Extlights/]: HELLO FROM PREINIT
-[20Oct2019 15:30:24.425] [modloading-worker-0/INFO] [com.polyvalord.extlights.Extlights/]: DIRT BLOCK >> minecraft:dirt
-[20Oct2019 15:30:24.435] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 3 jobs
-[20Oct2019 15:30:24.471] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.034
-[20Oct2019 15:30:24.524] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20Oct2019 15:30:24.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[20Oct2019 15:30:24.528] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[20Oct2019 15:30:24.963] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[20Oct2019 15:30:25.017] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[20Oct2019 15:30:25.394] [modloading-worker-0/INFO] [ring_of_repair/]: Hello world from RingOfRepair
-[20Oct2019 15:30:25.396] [modloading-worker-0/INFO] [ring_of_repair/]: Got IMC [Hello world]
-[20Oct2019 15:30:25.399] [modloading-worker-0/INFO] [com.polyvalord.extlights.Extlights/]: Got IMC []
-[20Oct2019 15:30:28.702] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[20Oct2019 15:30:28.979] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20Oct2019 15:30:29.135] [Server thread/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod forge version 28.1.56 and it is now at version 28.1.61, things may not work well
-[20Oct2019 15:30:30.947] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: LinkedDestruction-1.14.4-0.7.2.9999.jar, inventorysorter-1.14.4-16.1.0.jar, TrashSlot_1.14.4-10.4.7.jar, KleeSlabs_1.14.4-7.4.7.jar, Harvest-forge-1.14.4-1.2.10-23.jar, fishtraps-0.0.4.jar, AppleSkin-mc1.14.4-forge-1.0.12.jar, lumberjack-2.0.0.jar, Default, travel_bag-1.0.6-1.14.4.jar, QuickLeafDecay-MC1.14.4-1.2.5.jar, ProgressiveBosses-2.1.2.jar, forge-1.14.4-28.1.61-universal.jar, extlights-1.6.jar, CraftingCraft_1.14.4-7.1.6.jar, CoffeeSpawner-1.14.4-5.0.0.jar, furniture-7.0.0-pre10-1.14.4.jar, angermanagement-1.14.4-0.1.0.jar, CarryOn+MC1.14.4+v1.12.3.jar, CosmeticArmorReworked-1.14.4-v1a.jar, extraanvils-2.3a.jar, Floocraft-1.14.4-1.9.7.jar, jei-1.14.4-6.0.0.18.jar, JRFTL+[1.14.4]-1.1.jar, justenoughbuttons-1.14.4-1.0b.jar, levelhearts-1.14.4-1.1.2.jar, playerplates-1.14.4-forge-1.1.0.jar, RingOfRepair-1.14.4-1.0.17.jar, rsgauges-1.14.4-1.1.8-b4.jar, sit-1.14.4-v1.2.3.jar, snowvariants-1.14.4-1.1.1.jar, ToLaserBlade-1.14.4-2.0.4.3.jar, ToolBelt-1.14.4-1.12.1.jar, [1.14.2-1.14.4]TorchBowMod_v1.5.jar, Uppers-0.1.10.jar, usefulmending-1.0.jar, Waddles-1.14.4-0.8.3.jar, findme-1.14.4-1.1.0.13.jar
-[20Oct2019 15:30:34.008] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe rsgauges:industrial/industrial_knock_switch_recipe
+[27Oct2019 20:29:58.323] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.1.70, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge]
+[27Oct2019 20:29:58.333] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_222 by Oracle Corporation
+[27Oct2019 20:29:58.731] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[27Oct2019 20:30:01.460] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[27Oct2019 20:30:26.474] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[27Oct2019 20:30:26.490] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Oct2019 20:30:26.493] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Oct2019 20:30:26.497] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[27Oct2019 20:30:26.536] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Oct2019 20:30:26.841] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.14.4
+[27Oct2019 20:30:29.954] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `torchbowmod` for name `torchbow`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[27Oct2019 20:30:29.957] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `torchbowmod` for name `multitorch`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[27Oct2019 20:30:31.362] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity waddles:adelie_penguin
+[27Oct2019 20:30:31.557] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.70, for MC 1.14.4 with MCP 20190829.143755
+[27Oct2019 20:30:31.560] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.70 Initialized
+[27Oct2019 20:30:37.687] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cfm:seat
+[27Oct2019 20:30:38.702] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after CONSTRUCT: 1 jobs
+[27Oct2019 20:30:38.795] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.088
+[27Oct2019 20:30:39.266] [Server thread/INFO] [com.tfar.extraanvils.ExtraAnvils/]: registering diamond anvil
+[27Oct2019 20:30:39.271] [Server thread/INFO] [com.tfar.extraanvils.ExtraAnvils/]: registering gold anvil
+[27Oct2019 20:30:39.273] [Server thread/INFO] [com.tfar.extraanvils.ExtraAnvils/]: registering stone anvil
+[27Oct2019 20:30:40.302] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Registered 115 blocks.
+[27Oct2019 20:30:40.354] [Server thread/INFO] [ring_of_repair/]: Blocks registered
+[27Oct2019 20:30:40.356] [Server thread/INFO] [com.polyvalord.extlights.Extlights/]: HELLO from Register Block
+[27Oct2019 20:30:41.747] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Registered 116 items.
+[27Oct2019 20:30:41.751] [Server thread/INFO] [ring_of_repair/]: Items registered.
+[27Oct2019 20:30:41.755] [Server thread/INFO] [TorchBowMod/]: HELLO from Register Item
+[27Oct2019 20:30:41.853] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Registered 8 tile entities.
+[27Oct2019 20:30:41.889] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity extraanvils:falling_anvil_entity
+[27Oct2019 20:30:41.894] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity floocraftft
+[27Oct2019 20:30:41.897] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity sit:entity_sit
+[27Oct2019 20:30:41.899] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity torchbowmod:entitytorch
+[27Oct2019 20:30:43.078] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /etc/minecraft/qwerty/config/kleeslabs-common.toml is not correct. Correcting
+[27Oct2019 20:30:43.081] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.disabledCompat was corrected from [] to []
+[27Oct2019 20:30:43.128] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Loaded config file rsgauges-common.toml
+[27Oct2019 20:30:43.178] [Thread-1/INFO] [wile.rsgauges.ModRsGauges/]: Config file changed rsgauges-common.toml
+[27Oct2019 20:30:43.256] [modloading-worker-0/INFO] [ring_of_repair/]: Mod setup
+[27Oct2019 20:30:43.259] [modloading-worker-0/INFO] [com.polyvalord.extlights.Extlights/]: HELLO FROM PREINIT
+[27Oct2019 20:30:43.260] [modloading-worker-0/INFO] [com.polyvalord.extlights.Extlights/]: DIRT BLOCK >> minecraft:dirt
+[27Oct2019 20:30:43.898] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: Global Forge version check system disabled, no further processing.
+[27Oct2019 20:30:43.981] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file config/appleskin.toml is not correct. Correcting
+[27Oct2019 20:30:43.984] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
+[27Oct2019 20:30:43.986] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltip was corrected from null to true
+[27Oct2019 20:30:43.988] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to true
+[27Oct2019 20:30:43.990] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showSaturationHudOverlay was corrected from null to true
+[27Oct2019 20:30:43.991] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to true
+[27Oct2019 20:30:43.993] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to true
+[27Oct2019 20:30:43.995] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to true
+[27Oct2019 20:30:44.255] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:lit_furnace : Unknown block type 'minecraft:lit_furnace' at position 0: <--[HERE]
+[27Oct2019 20:30:44.308] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.311] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.313] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.314] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.316] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.317] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.318] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.336] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.337] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.339] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.341] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.342] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.343] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.347] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:unpowered_comparator : Unknown block type 'minecraft:unpowered_comparator' at position 0: <--[HERE]
+[27Oct2019 20:30:44.350] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.352] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.354] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.421] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.424] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.425] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.426] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.427] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.428] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.430] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.431] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.441] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.443] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.444] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:unpowered_repeater : Unknown block type 'minecraft:unpowered_repeater' at position 0: <--[HERE]
+[27Oct2019 20:30:44.446] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.448] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.449] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.451] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.453] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.454] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.455] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.465] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.466] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.503] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.504] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.505] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.506] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.507] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:powered_comparator : Unknown block type 'minecraft:powered_comparator' at position 0: <--[HERE]
+[27Oct2019 20:30:44.509] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.511] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.512] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.535] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.537] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.538] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.539] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.540] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.541] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.543] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.544] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.545] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.546] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.560] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:powered_repeater : Unknown block type 'minecraft:powered_repeater' at position 0: <--[HERE]
+[27Oct2019 20:30:44.562] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.564] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.568] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.581] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.583] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.584] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.598] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.599] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.600] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.601] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.602] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.603] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.604] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.606] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:tallgrass;1 : Unknown block type 'minecraft:tallgrass' at position 0: <--[HERE]
+[27Oct2019 20:30:44.608] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.658] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.660] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.662] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.664] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.664] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.665] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.666] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.667] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.669] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.671] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.672] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.673] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.674] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:tallgrass;2 : Unknown block type 'minecraft:tallgrass' at position 0: <--[HERE]
+[27Oct2019 20:30:44.676] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.678] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.679] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.681] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.716] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.717] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.718] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.719] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.720] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.722] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.723] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.724] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.725] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.760] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:leaves2 : Unknown block type 'minecraft:leaves2' at position 0: <--[HERE]
+[27Oct2019 20:30:44.763] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.765] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.766] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.768] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.770] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.771] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.772] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.773] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.774] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.775] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.776] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.777] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.778] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.779] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:reeds : Unknown block type 'minecraft:reeds' at position 0: <--[HERE]
+[27Oct2019 20:30:44.809] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.811] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.812] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.814] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.816] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.817] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.817] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.818] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.819] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.832] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.833] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.834] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.834] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.836] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:daylight_detector_inverted : Unknown block type 'minecraft:daylight_detector_inverted' at position 0: <--[HERE]
+[27Oct2019 20:30:44.838] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.839] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.841] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.842] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.846] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.847] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.848] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.849] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.850] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.852] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.852] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.853] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.854] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.855] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:standing_sign : Unknown block type 'minecraft:standing_sign' at position 0: <--[HERE]
+[27Oct2019 20:30:44.857] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.882] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.884] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.885] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.887] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.888] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.889] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.890] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.891] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.892] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.893] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.894] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.895] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:44.896] [modloading-worker-0/ERROR] [CarryOn/]: Blockstate parsing Exception at: minecraft:wall_sign : Unknown block type 'minecraft:wall_sign' at position 0: <--[HERE]
+[27Oct2019 20:30:44.898] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.helper.StringParser.getBlockState(StringParser.java:45)
+[27Oct2019 20:30:44.930] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.parseOverride(ModelOverridesHandler.java:119)
+[27Oct2019 20:30:44.932] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.ModelOverridesHandler.initOverrides(ModelOverridesHandler.java:155)
+[27Oct2019 20:30:44.934] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.common.handler.RegistrationHandler.regOverrideList(RegistrationHandler.java:61)
+[27Oct2019 20:30:44.935] [modloading-worker-0/ERROR] [CarryOn/]: tschipp.carryon.CarryOn.setup(CarryOn.java:80)
+[27Oct2019 20:30:44.936] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[27Oct2019 20:30:44.937] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[27Oct2019 20:30:44.938] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[27Oct2019 20:30:44.939] [modloading-worker-0/ERROR] [CarryOn/]: net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[27Oct2019 20:30:44.941] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.942] [modloading-worker-0/ERROR] [CarryOn/]: java.util.function.Consumer.lambda$andThen$0(Consumer.java:65)
+[27Oct2019 20:30:44.943] [modloading-worker-0/ERROR] [CarryOn/]: 24 more...
+[27Oct2019 20:30:44.943] [modloading-worker-0/INFO] [CarryOn/]: 
+[27Oct2019 20:30:45.267] [modloading-worker-0/INFO] [wile.rsgauges.ModRsGauges/]: Registering recipe condition processor ...
+[27Oct2019 20:30:45.270] [modloading-worker-0/INFO] [wile.rsgauges.ModRsGauges/]: Init networking, overlay handling, content processors ...
+[27Oct2019 20:30:45.328] [modloading-worker-0/INFO] [com.shadowcs.linkeddestruction.LinkedDestruction/]: Setup method firing
+[27Oct2019 20:30:45.502] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 3 jobs
+[27Oct2019 20:30:45.557] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.053
+[27Oct2019 20:30:45.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[27Oct2019 20:30:45.590] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[27Oct2019 20:30:45.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[27Oct2019 20:30:46.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[27Oct2019 20:30:46.786] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[27Oct2019 20:30:49.208] [modloading-worker-1/INFO] [ring_of_repair/]: Hello world from RingOfRepair
+[27Oct2019 20:30:49.209] [modloading-worker-1/INFO] [ring_of_repair/]: Got IMC [Hello world]
+[27Oct2019 20:30:49.211] [modloading-worker-1/INFO] [com.polyvalord.extlights.Extlights/]: Got IMC []
+[27Oct2019 20:30:51.897] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[27Oct2019 20:30:52.075] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[27Oct2019 20:30:52.334] [Server thread/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod forge version 28.1.61 and it is now at version 28.1.70, things may not work well
+[27Oct2019 20:30:53.684] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: LinkedDestruction-1.14.4-0.7.2.9999.jar, inventorysorter-1.14.4-16.1.0.jar, TrashSlot_1.14.4-10.4.7.jar, KleeSlabs_1.14.4-7.4.7.jar, Harvest-forge-1.14.4-1.2.10-23.jar, fishtraps-0.0.4.jar, AppleSkin-mc1.14.4-forge-1.0.12.jar, lumberjack-2.0.0.jar, Default, travel_bag-1.0.6-1.14.4.jar, QuickLeafDecay-MC1.14.4-1.2.5.jar, ProgressiveBosses-2.1.2.jar, forge-1.14.4-28.1.70-universal.jar, extlights-1.6.jar, CraftingCraft_1.14.4-7.1.6.jar, CoffeeSpawner-1.14.4-5.0.0.jar, furniture-7.0.0-pre10-1.14.4.jar, angermanagement-1.14.4-0.1.0.jar, CarryOn+MC1.14.4+v1.12.3.jar, CosmeticArmorReworked-1.14.4-v1a.jar, extraanvils-2.3a.jar, Floocraft-1.14.4-1.9.7.jar, jei-1.14.4-6.0.0.18.jar, JRFTL+[1.14.4]-1.1.jar, justenoughbuttons-1.14.4-1.0b.jar, levelhearts-1.14.4-1.1.2.jar, playerplates-1.14.4-forge-1.1.0.jar, RingOfRepair-1.14.4-1.0.17.jar, rsgauges-1.14.4-1.1.8-b4.jar, sit-1.14.4-v1.2.3.jar, snowvariants-1.14.4-1.1.1.jar, ToLaserBlade-1.14.4-2.0.4.3.jar, ToolBelt-1.14.4-1.12.1.jar, [1.14.2-1.14.4]TorchBowMod_v1.5.jar, Uppers-0.1.10.jar, usefulmending-1.0.jar, Waddles-1.14.4-0.8.3.jar, findme-1.14.4-1.1.0.13.jar
+[27Oct2019 20:30:56.215] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe rsgauges:industrial/industrial_knock_switch_recipe
 com.google.gson.JsonSyntaxException: Unknown condition type: rsgauges:grc
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[?:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[?:?]
@@ -250,13 +250,13 @@ com.google.gson.JsonSyntaxException: Unknown condition type: rsgauges:grc
 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:699) [?:?]
 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:693) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) [?:?]
-	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1431) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1432) [?:?]
 	at net.minecraft.server.MinecraftServer.func_195560_a(MinecraftServer.java:436) [?:?]
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:351) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
-[20Oct2019 15:30:34.238] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe rsgauges:industrial/industrial_knock_button_recipe
+[27Oct2019 20:30:56.445] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe rsgauges:industrial/industrial_knock_button_recipe
 com.google.gson.JsonSyntaxException: Unknown condition type: rsgauges:grc
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[?:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[?:?]
@@ -275,152 +275,113 @@ com.google.gson.JsonSyntaxException: Unknown condition type: rsgauges:grc
 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:699) [?:?]
 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:693) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) [?:?]
-	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1431) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1432) [?:?]
 	at net.minecraft.server.MinecraftServer.func_195560_a(MinecraftServer.java:436) [?:?]
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:351) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:598) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
-[20Oct2019 15:30:34.394] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe jrftl:prep_flesh_smelting as it's conditions were not met
-[20Oct2019 15:30:34.403] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe rsgauges:gauge/rustic_circular_gauge_recipe as it's conditions were not met
-[20Oct2019 15:30:34.407] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe jrftl:prepared_flesh as it's conditions were not met
-[20Oct2019 15:30:34.412] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[20Oct2019 15:30:36.630] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 874 advancements
-[20Oct2019 15:30:40.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20Oct2019 15:30:43.730] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:30:43.732] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:30:43.733] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:30:43.734] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:30:43.736] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:30:43.737] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:30:43.738] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.773] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.775] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.776] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.778] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.786] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.787] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.788] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.789] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.791] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.792] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.793] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.794] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.794] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.795] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.796] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.797] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.798] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.807] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.808] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.809] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.826] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.827] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.828] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.829] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.830] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.830] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.831] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.831] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.832] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.833] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.833] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.834] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.834] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.835] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.835] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.836] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.836] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.837] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.837] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.837] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.838] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.838] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.838] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.839] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.839] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.839] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.840] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.840] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.840] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.841] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.841] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.841] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.842] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.842] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.842] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.843] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.843] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.843] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.844] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.844] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.844] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.844] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.845] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.845] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.845] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.846] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.846] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.846] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.847] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.847] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.847] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.876] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.876] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.877] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.877] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.877] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.877] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:22.878] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:23.323] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20Oct2019 15:31:23.733] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 69%
-[20Oct2019 15:31:24.342] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 43674 ms
-[20Oct2019 15:31:24.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (55.723s)! For help, type "help"
-[20Oct2019 15:31:24.466] [Server thread/INFO] [ring_of_repair/]: Server starting
-[20Oct2019 15:31:24.589] [Server thread/INFO] [com.polyvalord.extlights.Extlights/]: HELLO from server starting
-[20Oct2019 15:31:25.050] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20Oct2019 15:31:25.051] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20Oct2019 15:49:01.690] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player RyTinSelver is a131f7df-a8cc-46ee-b7f8-a908f80a3528
-[20Oct2019 15:49:03.324] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/tank_gold' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.340] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/tank_iron' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.341] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/tank_wood_easy' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.343] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/tank_wood' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.344] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/tank_stone' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.346] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/tank_diamond' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.347] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/chest_as_tank' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.365] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/pipe' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.368] [Server thread/WARN] [net.minecraft.advancements.PlayerAdvancements/]: Ignored advancement 'fluidtank:recipes/tank/tank_emerald' in progress file ./world/advancements/a131f7df-a8cc-46ee-b7f8-a908f80a3528.json - it doesn't exist anymore?
-[20Oct2019 15:49:03.761] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_wood removed now.
-[20Oct2019 15:49:03.773] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:pipe removed now.
-[20Oct2019 15:49:03.776] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_diamond removed now.
-[20Oct2019 15:49:03.778] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_iron removed now.
-[20Oct2019 15:49:03.781] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:chest_as_tank removed now.
-[20Oct2019 15:49:03.829] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_gold removed now.
-[20Oct2019 15:49:03.831] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_emerald removed now.
-[20Oct2019 15:49:03.835] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_stone removed now.
-[20Oct2019 15:49:03.842] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_wood removed now.
-[20Oct2019 15:49:03.848] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:pipe removed now.
-[20Oct2019 15:49:03.851] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_diamond removed now.
-[20Oct2019 15:49:03.861] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_iron removed now.
-[20Oct2019 15:49:03.876] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:chest_as_tank removed now.
-[20Oct2019 15:49:03.879] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_gold removed now.
-[20Oct2019 15:49:03.882] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_emerald removed now.
-[20Oct2019 15:49:03.928] [Server thread/ERROR] [net.minecraft.item.crafting.ServerRecipeBook/]: Tried to load unrecognized recipe: fluidtank:tank_stone removed now.
-[20Oct2019 15:49:03.932] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: RyTinSelver[/115.200.83.67:50257] logged in with entity id 134 at (-230.3597843696956, 66.0, -314.059335011736)
-[20Oct2019 15:49:04.087] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RyTinSelver joined the game
-[20Oct2019 15:49:04.187] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@7e46660a (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[20Oct2019 15:49:04.190] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@6b8b180b (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
-[20Oct2019 15:49:04.203] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@1dbcdd2b (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
-[20Oct2019 15:49:04.274] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@6a36655 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[20Oct2019 15:49:04.704] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload
-[20Oct2019 15:49:13.528] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload
-[20Oct2019 15:51:27.763] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3169ms or 63 ticks behind
-[20Oct2019 15:56:18.209] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RyTinSelver lost connection: Disconnected
-[20Oct2019 15:56:18.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RyTinSelver left the game
-[20Oct2019 15:56:46.811] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[20Oct2019 15:56:46.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[20Oct2019 15:56:46.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[20Oct2019 15:56:46.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[20Oct2019 15:56:46.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
-[20Oct2019 15:56:47.207] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20Oct2019 15:56:47.234] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27Oct2019 20:30:56.547] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe jrftl:prep_flesh_smelting as it's conditions were not met
+[27Oct2019 20:30:56.589] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe rsgauges:gauge/rustic_circular_gauge_recipe as it's conditions were not met
+[27Oct2019 20:30:56.622] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe jrftl:prepared_flesh as it's conditions were not met
+[27Oct2019 20:30:56.628] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[27Oct2019 20:30:59.065] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 874 advancements
+[27Oct2019 20:31:03.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27Oct2019 20:31:07.779] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:07.782] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:07.783] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:07.785] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:07.786] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:07.787] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:07.788] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:07.789] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:07.790] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:08.336] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.131] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.133] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.135] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.136] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.137] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.151] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.153] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.154] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.155] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.156] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.157] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.157] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.158] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.159] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.160] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.161] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.162] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.185] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.186] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.187] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.187] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.188] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.189] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.189] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.190] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.190] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.191] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.192] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.192] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.193] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.193] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.194] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.194] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.194] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.195] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.195] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.196] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.196] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.196] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.197] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.197] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.197] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.198] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.198] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.198] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.199] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.199] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.199] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.199] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.200] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.200] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.200] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.201] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.201] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.201] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.202] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.202] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.202] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.202] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.203] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.203] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.203] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.215] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.215] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.216] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.216] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.216] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.217] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.217] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.217] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.217] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.218] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.218] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.218] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:45.686] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[27Oct2019 20:31:46.543] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 42904 ms
+[27Oct2019 20:31:46.576] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (54.724s)! For help, type "help"
+[27Oct2019 20:31:46.586] [Server thread/INFO] [ring_of_repair/]: Server starting
+[27Oct2019 20:31:46.587] [Server thread/INFO] [com.polyvalord.extlights.Extlights/]: HELLO from server starting
+[27Oct2019 20:31:47.852] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27Oct2019 20:31:47.853] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27Oct2019 20:34:40.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[27Oct2019 20:34:40.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Oct2019 20:34:40.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Oct2019 20:34:40.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27Oct2019 20:34:40.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
+[27Oct2019 20:34:42.506] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27Oct2019 20:34:42.582] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
